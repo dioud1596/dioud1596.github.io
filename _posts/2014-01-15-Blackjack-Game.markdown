@@ -17,7 +17,7 @@ score = 0
 bankscore =0
 
 while score < 21
-	puts "card ?"
+	puts "card ? answer by (y or n)"
 	answer = gets.chomp
 	if answer == "y"
 		 score += rand(1..11)
